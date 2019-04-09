@@ -7,16 +7,21 @@
   <script src="js/jquery.js"></script>
 </head>
 <body>
-  <div class="menu">
-  <a href="spotifyp2.html">Inicio</a>
-  <a href="spotifyp3.html">Buscar</a>
-  <a href="spotifyp4.html">Biblioteca</a>
+<ul class="nav nav-pills" style="background-color: gray">
+  <li role="presentation" class=""><a href="spotify2.html">Inicio</a></li>
+  <li role="presentation"><a href="spotify3.html">Buscar</a></li>
+  <li role="presentation"><a href="spotify4.html">Biblioteca</a></li>
+</ul>
   <h5>Usuario</h5>
-   <a href=""><img src="imagenes/usuario.jpg" class="img-responsive" alt="enviar" style="height: 100px"></a>
-  <a href=""><img src="imagenes/configuracion.jpg" class="img-responsive pull-rigth" alt="enviar" style="height: 100px"></a>
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-2"><img src="imagenes/usuario3.png"></div>
+    <div class="col-xs-8 text-center"><h1> Bliblioteca</h1></div>
+    <div class="col-xs-2"><img src="imagenes/configuracion.jpg" style="height: 100px"></div>
+  </div>
 </div>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top: 5px">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top: 10px" style="">
   Recientemente Reproducidos
 </button>
 
@@ -45,6 +50,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
+        
       </div>
     </div>
   </div>
